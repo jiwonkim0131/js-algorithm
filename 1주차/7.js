@@ -26,10 +26,9 @@ const solution = (dirs) => {
     if (nx >= -5 && nx <= 5 && ny >= -5 && ny <= 5) {
       visited.add(`${x}${y}${nx}${ny}`);
       visited.add(`${nx}${ny}${x}${y}`); // 반대 경로도 같이 등록해줘야 중복이 제거됨
+      x = nx;
+      y = ny;
     }
-
-    x = nx;
-    y = ny;
   }
 
   return visited.size / 2;
