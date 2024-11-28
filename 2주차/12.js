@@ -1,4 +1,5 @@
 // 스택 - 문제12. 주식 가격
+// https://school.programmers.co.kr/learn/courses/30/lessons/42584
 // 아이디어 문제 - 인덱스를 관리하는 아이디어가 필요하다!
 
 const solution = (prices) => {
