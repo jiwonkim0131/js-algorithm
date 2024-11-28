@@ -1,4 +1,5 @@
 // 스택 - 문제10. 괄호 회전하기
+// https://school.programmers.co.kr/learn/courses/30/lessons/76502
 // 조건 비교할 때 너무 헷갈렸다
 const solution = (str) => {
 	const bracket1 = '[';
